@@ -23,8 +23,12 @@ the full article.
 ● Retrofit : Network lib
 
 ● SQLite : Storing the data for offline view
+
 ## Important
-● Please before building apk put your newsapi.org api key here
+● Please,before building the apk put your newsapi.org api key here
 https://github.com/rajsingha/NewsBreeze-Android/blob/master/app/src/main/cpp/native-lib.cpp
+
+● Check all classes, I put single line comment inside every function.  
+
 ### Total time = 38 hours
 
