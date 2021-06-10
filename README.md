@@ -20,9 +20,13 @@ the full article.
 ## Tech
 ● API: All of the data is receiving from https://newsapi.org/
 
+● Postman: For testing the api.
+
 ● Retrofit : Network lib
 
 ● SQLite : Storing the data for offline view
+
+
 
 ## Important
 ● Please,before building the apk put your newsapi.org api key here
