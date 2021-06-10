@@ -30,5 +30,8 @@ https://github.com/rajsingha/NewsBreeze-Android/blob/master/app/src/main/cpp/nat
 
 ● Check all classes, I put single line comment inside every function.  
 
+## App UI
+● https://xd.adobe.com/view/b08add15-5cab-4892-820a-11662bf51e69-e5d9/
+
 ### Total time = 38 hours
 
