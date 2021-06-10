@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
 
 
 import com.newsbreeze.app.adapters.NewsAdapter;
@@ -82,8 +83,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     // if {filter string is empty it will return all data from json,} else { it will return filtered data by title}
     private void getFilteredData(String filter){
         Call<NewsData> call = ApiClient
@@ -113,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 @Override
                 public void onFailure(Call<NewsData> call, Throwable t) {
+                    Toast.makeText(MainActivity.this,
+                            "Looks like you don't have an internet connection",Toast.LENGTH_SHORT).show();
                 }
             });
     }
