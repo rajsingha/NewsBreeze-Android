@@ -37,5 +37,5 @@ https://github.com/rajsingha/NewsBreeze-Android/blob/master/app/src/main/cpp/nat
 ## App UI
 ● https://xd.adobe.com/view/b08add15-5cab-4892-820a-11662bf51e69-e5d9/
 
-### Total time = 38 hours
+### Total time = 30 hours
 
